@@ -19,6 +19,7 @@ export default function FormAddFriend({ onAddFriend }) {
       image: `${image}?=${id}`,
       balance: 0,
     };
+
     onAddFriend(newFriend);
 
     setName("");
